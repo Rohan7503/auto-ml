@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server repository for the AutoML Project (7th sem capstone project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automl-organization/server.git"
+  },
+  "author": "Rohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/automl-organization/server/issues"
+  },
+  "homepage": "https://github.com/automl-organization/server#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
